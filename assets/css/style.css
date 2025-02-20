@@ -247,4 +247,18 @@ footer {
     margin-bottom: 20px;
 }
 
+.cta .btn {
+    background-color: #fff;
+    color: #08748c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
 
+.cta .btn:hover {
+    background-color: #065a6d;
+    color: #fff;
+}
