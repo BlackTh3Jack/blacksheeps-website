@@ -60,7 +60,6 @@ footer {
     margin-top: 50px;
     font-size: 14px;
 }
-
 /* Stile del modulo */
 .form-container {
     width: 50%;
@@ -115,7 +114,6 @@ footer {
 .submit-button:hover {
     background-color: #065a6d;
 }
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -129,8 +127,6 @@ footer {
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s ease;
-    object-fit: cover;
-    max-height: 250px; /* Imposta un'altezza massima */
 }
 
 .gallery-item:hover {
@@ -163,7 +159,6 @@ footer {
     color: white;
     cursor: pointer;
 }
-
 /* Hero Section */
 .hero {
     text-align: center;
@@ -196,50 +191,60 @@ footer {
     background-color: #065b6d;
 }
 
-/* Sezione Chi Siamo */
-.about-section {
-    background-color: #3b3324;
-    color: #fff4bc;
-    padding: 60px 20px;
+/* Perché Sceglierci */
+.why-choose-us {
     text-align: center;
+    background-color: #5a472d;
+    padding: 50px 20px;
 }
 
-.about-container {
-    max-width: 1000px;
-    margin: 0 auto;
+.why-choose-us h2 {
+    font-size: 2.5rem;
+    color: #fff4bc;
+    margin-bottom: 30px;
+}
+
+.features {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-.about-text {
-    flex: 1;
-    min-width: 300px;
-    text-align: justify;
-}
-
-.about-text h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color: #08748c;
-}
-
-.about-text p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-}
-
-.about-image {
-    flex: 1;
-    min-width: 300px;
-}
-
-.about-image img {
-    width: 100%;
-    max-width: 400px;
+.feature {
+    width: 300px;
+    background: #3c2a1d;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
 }
+
+.feature img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    background-color: #08748c;
+    color: white;
+    padding: 50px 20px;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+}
+
+.cta p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+
