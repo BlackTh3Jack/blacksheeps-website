@@ -268,3 +268,51 @@ footer {
     background-color: #065a6d;
     color: #fff;
 }
+
+/* Stile per la sezione Chi Siamo */
+.about-section {
+    background-color: #3b3324; /* Marrone scuro */
+    color: #fff4bc; /* Beige chiaro */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #08748c;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
