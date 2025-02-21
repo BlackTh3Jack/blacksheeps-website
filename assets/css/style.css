@@ -197,84 +197,9 @@ footer {
 }
 
 /* Sezione Chi Siamo */
-.about-us {
-    background-color: #3b3324;
-    padding: 50px 20px;
-    text-align: center;
-    color: #fff4bc;
-}
-
-.about-us h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.about-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.about-text {
-    flex: 1;
-    min-width: 300px;
-    max-width: 600px;
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-.about-image {
-    flex: 1;
-    min-width: 300px;
-    max-width: 500px;
-}
-
-.about-image img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-/* Call to Action */
-.cta {
-    text-align: center;
-    background-color: #08748c;
-    color: white;
-    padding: 50px 20px;
-}
-
-.cta h2 {
-    font-size: 2.5rem;
-}
-
-.cta p {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-}
-
-.cta .btn {
-    background-color: #fff;
-    color: #08748c;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease;
-}
-
-.cta .btn:hover {
-    background-color: #065a6d;
-    color: #fff;
-}
-
-/* Stile per la sezione Chi Siamo */
 .about-section {
-    background-color: #3b3324; /* Marrone scuro */
-    color: #fff4bc; /* Beige chiaro */
+    background-color: #3b3324;
+    color: #fff4bc;
     padding: 60px 20px;
     text-align: center;
 }
@@ -292,6 +217,7 @@ footer {
 .about-text {
     flex: 1;
     min-width: 300px;
+    text-align: justify;
 }
 
 .about-text h2 {
@@ -317,4 +243,3 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-
