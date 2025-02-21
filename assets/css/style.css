@@ -60,6 +60,7 @@ footer {
     margin-top: 50px;
     font-size: 14px;
 }
+
 /* Stile del modulo */
 .form-container {
     width: 50%;
@@ -114,6 +115,7 @@ footer {
 .submit-button:hover {
     background-color: #065a6d;
 }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -159,6 +161,7 @@ footer {
     color: white;
     cursor: pointer;
 }
+
 /* Hero Section */
 .hero {
     text-align: center;
@@ -191,43 +194,46 @@ footer {
     background-color: #065b6d;
 }
 
-/* Perché Sceglierci */
-.why-choose-us {
-    text-align: center;
-    background-color: #5a472d;
+/* Sezione Chi Siamo */
+.about-us {
+    background-color: #3b3324;
     padding: 50px 20px;
-}
-
-.why-choose-us h2 {
-    font-size: 2.5rem;
-    color: #fff4bc;
-    margin-bottom: 30px;
-}
-
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.feature {
-    width: 300px;
-    background: #3c2a1d;
-    padding: 20px;
-    border-radius: 10px;
     text-align: center;
-    color: white;
+    color: #fff4bc;
 }
 
-.feature img {
-    width: 60px;
-    margin-bottom: 10px;
+.about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-.feature h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* Call to Action */
