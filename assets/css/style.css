@@ -129,6 +129,8 @@ footer {
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    object-fit: cover;
+    max-height: 250px; /* Imposta un'altezza massima */
 }
 
 .gallery-item:hover {
