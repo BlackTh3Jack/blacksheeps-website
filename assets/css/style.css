@@ -246,6 +246,7 @@ footer {
     font-size: 1.3rem;
     margin-bottom: 20px;
 }
+
 /* Stile per il pulsante "Scopri gli Eventi" */
 .btn-eventi {
     display: inline-block;
@@ -270,5 +271,3 @@ footer {
 .btn-eventi:active {
     transform: scale(0.95);
 }
-
-
