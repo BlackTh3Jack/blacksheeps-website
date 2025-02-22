@@ -271,3 +271,66 @@ footer {
 .btn-eventi:active {
     transform: scale(0.95);
 }
+
+.about-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: #3c2a1d;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    max-width: 200px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline li {
+    background: #55421e;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #fff4bc;
+}
