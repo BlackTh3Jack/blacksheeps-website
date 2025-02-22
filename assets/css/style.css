@@ -246,5 +246,29 @@ footer {
     font-size: 1.3rem;
     margin-bottom: 20px;
 }
+/* Stile per il pulsante "Scopri gli Eventi" */
+.btn-eventi {
+    display: inline-block;
+    background-color: #08748c;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #fff4bc;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-eventi:hover {
+    background-color: #065a6d;
+    color: #fff4bc;
+    border-color: #fff4bc;
+    transform: scale(1.05);
+}
+
+.btn-eventi:active {
+    transform: scale(0.95);
+}
 
 
